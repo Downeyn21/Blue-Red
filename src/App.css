@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btnLink {
+  text-decoration: none;
+}
+
+button {
+  width: 300px;
+  height: 200px;
+}
+
+.btnContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+}
+
+h3 {
+  margin: 100px;
+}

@@ -25,3 +25,12 @@ button {
 h3 {
   margin: 100px;
 }
+
+.redBtn {
+  background-color: red;
+  
+}
+
+.blueBtn {
+  background-color: blue;
+}

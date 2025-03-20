@@ -17,13 +17,11 @@ function Home() {
             <h2>You have TWO CHOICES</h2>
             <div className='btnContainer'>
                 
-                {/* <button>
-                    <Link to={/red} className='btnLink'>Red</Link>
-                </button>
+                <a href="/red">
+                <button className='redBtn'>RED</button></a>
                 <h3>or</h3>
-                <button>
-                    <Link to={/blue} className='btnLink'>Blue</Link>
-                </button> */}
+                <a href="/blue">
+                <button className='blueBtn'>BLUE</button></a>
                 
             </div>
 
@@ -32,11 +30,11 @@ function Home() {
             <Link to={"/red"}>Red</Link>
             </div>
 
-            <Routes>            
+            {/* <Routes>            
                 <Route path="/blue" element={<Blue />}/>
                 <Route path="/red" element={<Red />}/>
                 <Route path='/' element={<Home />}></Route>
-            </Routes>
+            </Routes> */}
         </div>
      );
 }

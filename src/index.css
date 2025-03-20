@@ -17,6 +17,8 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+  border: groove rgb(53, 52, 52) 20px;
 }
 #main-section {
   flex-grow: 1;
